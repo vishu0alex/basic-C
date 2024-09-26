@@ -2,13 +2,13 @@
 int main()
 {
 	int n,flag=0;
-	printf("enter 2 no.");
+	printf("enter a no.");
 	scanf("%d",&n);
 	if(n==1||n==0)
-	printf("no. is not prime");
+	flag=2;
 	for(int i=1;i<=n;i++)
 	{
-		if(n%i=0)
+		if(n%i==0)
 		flag++;
 	}
 	if(flag==2)

@@ -19,9 +19,9 @@ int main()
 		}
 	}
 	
-printf("decimal value=%lf\n",decimal);
+        printf("decimal value=%lf\n",decimal);
 
 
-  return 0;
+       return 0;
 	
 }

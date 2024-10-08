@@ -8,7 +8,7 @@ printf("enter your rollno.\n");
 scanf("%d",&rollno);
   
 printf("enter your name\n");
-scanf("%[^\n]",name);
+scanf(" %[^\n]",name);
   
 printf("enter your physics marks\n");
 scanf("%d",&phy);

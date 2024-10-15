@@ -10,6 +10,10 @@ int main()
 		r=r*10+m;
 		n/=10;
 	}
+
+//for 2 var put value of (m) in equation
+	//for 1 var (n=/10 and printf(n) in while loop)
+	
 	printf("reverse = %d",r);
 
 	

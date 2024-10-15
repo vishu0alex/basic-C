@@ -1,10 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<time.h>
 int main()
 {
 int n,random;
+
+srand(time(0));
 random=rand()%20+1;
-printf("guess the no. between 1 to 20\n");
+
+printf("guess the no.\n");
 scanf("%d",&n);
 if(n==random)
 {

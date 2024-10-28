@@ -1,11 +1,11 @@
 #include<stdio.h>
 int add()
 {
-int add=printf("%d",5+6);
-return add;
+int sum=printf("%d",5+6);
+return sum;
 }
 int main()
 {
-int add=add();
+int sum1=add();
 return 0;
 }

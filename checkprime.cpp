@@ -5,7 +5,7 @@ int main()
 	printf("enter a no.");
 	scanf("%d",&n);
 	if(n==1||n==0)
-	flag=2;
+	flag=0;
 	for(int i=1;i<=n;i++)
 	{
 		if(n%i==0)

@@ -36,6 +36,19 @@ void sum(int arr[][100],int arr2[][100],int row, int col)
 	print(arr3,row3,col3);
 }
 
+void reverse(int arr[][100],int row, int col)
+{
+    int arr2[100][100]={0},row2=row,col2=col;
+	for(int i=0;i<row;i++)
+	{
+		for(int j=0;j<col;j++)
+		{
+		    arr2[i][j]=arr[j][i];
+		}
+	}
+	print(arr2,row2,col2);
+}
+
 
 int main()
 {
@@ -53,6 +66,8 @@ int main()
     print(arr2,row,col);
     printf("sum = \n");
     sum(arr,arr2,row,col);
+    printf("reverse = \n");
+    reverse(arr,row,col);
    
 	
     return 0;	
